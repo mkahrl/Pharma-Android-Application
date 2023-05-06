@@ -19,7 +19,7 @@ import com.androidplot.xy.*;
 public class GraphAcvtivity extends PatientInfoActivity implements View.OnClickListener
 {
 
-	@Override
+    @Override
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
