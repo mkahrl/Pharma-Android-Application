@@ -19,10 +19,10 @@ import android.widget.RadioButton;
 
 public class DoseFrequencyActivity extends PatientInfoActivity implements View.OnClickListener, AdapterView.OnItemClickListener 
 {
-	ListView dosage;
-	Button rxNext;
-	String[] freqs;
-	@Override
+    ListView dosage;
+    Button rxNext;
+    String[] freqs;
+    @Override
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
