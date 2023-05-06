@@ -15,9 +15,9 @@ import android.widget.Button;
 
 public class GetStartedActivity extends PatientInfoActivity implements View.OnClickListener
 {
-	Button next;
-	Button find;
-	@Override
+    Button next;
+    Button find;
+    @Override
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
