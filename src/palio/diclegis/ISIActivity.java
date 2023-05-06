@@ -14,9 +14,9 @@ import android.widget.Button;
 
 public class ISIActivity extends PatientInfoActivity implements PalioWebView.ScrollListener, View.OnClickListener
 {
-	Button next;
-	PalioWebView wv;
-	@Override
+    Button next;
+    PalioWebView wv;
+    @Override
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
