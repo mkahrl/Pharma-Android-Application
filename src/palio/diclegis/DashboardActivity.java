@@ -19,8 +19,8 @@ public class DashboardActivity extends TabActivity /// TabActivity  Depreactes a
 /* Tabs and TabActivity need to be replaced with Fragments and FragmentActivity for tablets and ICS support.
  * ToDo: implement PatientInfoInterface since this Activity needs to extends 'Tab' or 'Fragment' activities.*/
 {
-	TabHost tabHost;
-	@Override
+    TabHost tabHost;
+    @Override
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
