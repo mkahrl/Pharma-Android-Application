@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:layout_marginTop="@dimen/standard_margin"
+    >
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="@dimen/med_text"
+    android:text="@string/auth_pin"
+    />
+    
+  <EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="@dimen/large_text"
+    android:password="true"
+    android:maxLength="4"
+    android:numeric="integer"
+    android:gravity="center"
+    android:id="@+id/pin_auth"
+    android:paddingTop="@dimen/standard_margin"
+    android:paddingBottom="@dimen/standard_margin"
+    android:layout_marginTop="@dimen/standard_margin"
+    android:layout_marginBottom="@dimen/standard_margin"
+    android:width="200dp"
+    />
+    
+
+ <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="@dimen/med_text"
+    android:id="@+id/submitpin"
+    android:text="@string/submit"
+    />
+
+</LinearLayout>

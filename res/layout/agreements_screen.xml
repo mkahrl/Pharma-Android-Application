@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/standard_margin"
+    >
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/agreements_copy"
+    android:layout_margin="@dimen/standard_margin"
+    />
+    
+<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/standard_margin"
+    >
+
+<Button
+	android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/view_policies"
+    android:text="@string/view_policies"
+    android:textSize="@dimen/med_text"
+    android:layout_margin="@dimen/standard_margin"
+    android:paddingTop="@dimen/standard_margin"
+    android:paddingBottom="@dimen/standard_margin"
+    android:paddingLeft="@dimen/standard_margin"
+    android:paddingRight="@dimen/standard_margin"
+/>
+
+<Button
+	android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/agree_continue"
+    android:text="@string/cont"
+    android:textSize="@dimen/med_text"
+    android:layout_margin="@dimen/standard_margin"
+    android:paddingTop="@dimen/standard_margin"
+    android:paddingBottom="@dimen/standard_margin"
+    android:paddingLeft="@dimen/standard_margin"
+    android:paddingRight="@dimen/standard_margin"
+/>
+</LinearLayout>
+</LinearLayout>

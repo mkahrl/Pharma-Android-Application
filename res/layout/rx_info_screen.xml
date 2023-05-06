@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="@dimen/small_margin"
+    >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="@dimen/med_text"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:text="@string/script_date"
+    android:id="@+id/script_date"
+    />
+    
+ <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="@dimen/med_text"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:text="@string/enter"
+    android:id="@+id/set_script_date"
+    />
+ </RelativeLayout>
+ <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="@dimen/med_text"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:text="@string/script_count"
+    android:id="@+id/script_count"
+    />
+    
+ <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="@dimen/med_text"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:text="@string/enter"
+    android:id="@+id/set_script_count"
+    />
+</RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="@dimen/med_text"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:text="@string/refill_count"
+    android:id="@+id/refill_count"
+    />
+    
+ <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="@dimen/med_text"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:text="@string/enter"
+    android:id="@+id/set_refill_count"
+    />
+</RelativeLayout>
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="@dimen/large_text"
+    android:gravity="left"
+    android:text="@string/alerts"
+    />
+    
+ <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="@dimen/med_text"
+    android:gravity="left"
+    android:text="@string/am_dose"
+    android:id="@+id/am_dose_label"
+    />
+    
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/am_dose"
+    >
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:textSize="@dimen/med_text"
+    android:id="@+id/set_am_dose"
+    />
+    
+ <ToggleButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:id="@+id/am_dose_toggle"
+    />
+</RelativeLayout>
+ <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="@dimen/med_text"
+    android:gravity="left"
+    android:text="@string/pm_dose"
+    />
+    
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:textSize="@dimen/med_text"
+    android:id="@+id/set_pm_dose"
+    />
+    
+ <ToggleButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:id="@+id/pm_dose_toggle"
+    />
+</RelativeLayout>
+    
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="@dimen/med_text"
+    android:gravity="left"
+    android:text="@string/bt_dose"
+    />
+    
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:textSize="@dimen/med_text"
+    android:id="@+id/set_bt_dose"
+    />
+    
+ <ToggleButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:id="@+id/bt_dose_toggle"
+    />
+</RelativeLayout>
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="@dimen/med_text"
+    android:text="@string/set_pin"
+    android:id="@+id/set_pin"
+    android:layout_gravity="center"
+    />
+</LinearLayout>

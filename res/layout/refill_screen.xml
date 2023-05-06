@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:layout_margin="@dimen/standard_margin"
+    >
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="@dimen/med_text"
+    android:text="@string/refill_time"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/standard_margin"
+    />
+    
+  <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_margin="@dimen/standard_margin"
+    >
+ <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="@dimen/med_text"
+    android:id="@+id/refill_dismiss_reminder"
+    android:text="@string/dismiss"
+    />
+    
+  <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="@dimen/med_text"
+    android:id="@+id/find_pharma"
+    android:text="@string/find_pharma"
+    />
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pharma Product</string>
+    <string name="app_title">Pharma Product</string>
+    <string name="ok">OK</string>
+    <string name="save">Save</string>
+    <string name="done">Done</string>
+    <string name="next">Next</string>
+    <string name="add">Add</string>
+    <string name="about">About</string>
+    <string name="accept">Accept</string>
+    <string name="submit">Submit</string>
+    <string name="agreements">Agreements</string>
+    <string name="get_started">Getting Started</string>
+    <string name="agreements_copy">You previously accepted the privacy policy and terms and conditions. You may view the policies and change
+	your opt-in decision at any time by going to the "More" section of the app. </string>
+    <string name="cont">Continue</string>
+    <string name="scope">This App is intended for U.S customers only</string>
+    <string name="isi">Important Safety Information</string>
+    <string name="view_policies">View Policies</string>
+    <string name="tandc">Terms and Conditions</string>
+    <string name="frequency">frequency</string>
+    <string name="privacy_agreement">Privacy Agreement</string>
+    <string name="reminder">Reminder</string>
+    <string name="fill_form_title">Fill Out Form</string>
+    <string name="fill_form">Please set dosing reminder times before setting pin</string>
+    <string name="have_script_fill">I have my script filled</string>
+    <string name="need_script_fill">I need to fill my script</string>
+    <string name="label_indication">Remind the patient of label indications with this text.</string>
+    <string name="label_indication_remind">Label Indication Reminder</string>
+    <string name="pin">PIN</string>
+    <string name="set_pin">Set PIN</string>
+    <string name="enter_pin">Enter a 4 digit PIN</string>
+    <string name="auth_pin">Enter PIN</string>
+    <string name="pin_saved">PIN Saved.</string>
+    <string name="pin_incorrect">PIN Incorrect. Please try again</string>
+    <string name="enter">Enter ></string>
+    <string name="script_date">Script Fill Date: </string>
+    <string name="script_count">Number of Tablets: </string>
+    <string name="refill_count">Number of Refill: </string>
+    <string name="script_info">Script Info</string>
+    <string name="enter_4dig_pen">Please enter a 4 digit PIN!.</string>
+    <string name="dosage_frequency_msg">How many Tablets are you taking a day?</string>
+    <string name="alerts">Alerts</string>
+    <string name="am_dose">Morning Dose</string>
+    <string name="pm_dose">Afternoon Dose</string>
+    <string name="bt_dose">Bedtime Dose</string>
+    <string name="dose_reminder">Dose Reminder.</string>
+    <string name="dosing_reminder">Dose Reminder</string>
+    <string name="dose_time">It is time for your next dose.</string>
+    <string name="refill_time">It is time to refill your prescription.</string>
+    <string name="refill_remind">Refill Reminder.</string>
+    <string name="refill_script">Refill your prescription.</string>
+    <string name="rate_morning_sickness">Rate you morning sickness (NVP).</string>
+    <string name="find_pharma">Find a Pharmacy</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="rate">Rate</string>
+    <string name="am">AM</string>
+    <string name="pm">PM</string>
+    <string name="reminder_set">Dose reminder is set for: </string>
+    <string name="dash_board">Dash board</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="faq">FAQ</string>
+    <string name="tips">Tips</string>
+    <string name="more">More</string>
+    <string name="copay">Copay Card</string>
+    <string name="system_refresh_notify">REFRESH_NOTIFICATIONS</string>
+    <string name="system_notid">notid</string>
+    <string-array name="dosage_frequency">
+       <item>Two a day</item>
+       <item>Three a day</item>
+       <item>Four a day</item>
+   </string-array>
+</resources>
