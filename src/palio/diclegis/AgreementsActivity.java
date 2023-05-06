@@ -14,9 +14,9 @@ import android.widget.Button;
 
 public class AgreementsActivity extends PatientInfoActivity implements View.OnClickListener
 {
-	Button next;
-	Button view;
-	@Override
+     Button next;
+     Button view;
+     @Override
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
